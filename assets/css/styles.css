@@ -1,0 +1,39 @@
+/* ===========================
+   GLOBAL TOKENS & BASE RESET
+   =========================== */
+
+:root {
+  --gold: #C8A84B;
+  --gold-light: #F0D080;
+  --dark: #1A1A2E;
+  --darker: #0F0F1A;
+  --card-bg: #16213E;
+  --green: #27AE60;
+  --pink: #F8C8CE;
+  --text-light: #E8E8F0;
+  --text-muted: #8888AA;
+  --radius: 16px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Sora', sans-serif;
+  background: var(--darker);
+  color: var(--text-light);
+  min-height: 100vh;
+}
+
+/* ===========================
+   ANIMATIONS
+   =========================== */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: none; }
+}

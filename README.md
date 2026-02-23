@@ -32,6 +32,7 @@ A mobile-first, responsive investment club web application for the **Forefront M
 ## Live Demo
 
 <!-- TODO: add GitHub Pages URL after deployment -->
+
 _Coming soon_
 
 ## License
