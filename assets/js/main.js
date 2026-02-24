@@ -18,3 +18,18 @@ function toggleMembership(type) {
     body.classList.add("open");
   }
 }
+
+// ===========================
+// MODAL
+// ===========================
+function openModal() {
+  document.getElementById("modalOverlay").classList.add("open");
+}
+
+function closeModal() {
+  document.getElementById("modalOverlay").classList.remove("open");
+}
+
+function closeModalOutside(e) {
+  if (e.target === document.getElementById("modalOverlay")) closeModal();
+}
