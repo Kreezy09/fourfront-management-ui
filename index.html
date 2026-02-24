@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Forefront Management – Investment Club</title>
+    <title>Fourfront Management – Investment Club</title>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -103,6 +103,50 @@
     </div>
 
     <!-- MEMBERSHIPS SECTION -->
+    <section class="memberships-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+
+            <!-- Foundation -->
+            <div class="membership-card foundation" id="foundationCard" onclick="toggleMembership('foundation')">
+              <div class="membership-header">
+                <h6>FOUNDATION MEMBERSHIP</h6>
+              </div>
+              <div class="membership-body" id="foundationBody">
+                <p>
+                  We invest for you, in shares and in the Mansa-X global fund.
+                  Service is free online with your personal representative, but
+                  service in the office may have extra charges.
+                </p>
+              </div>
+            </div>
+
+            <!-- Economy -->
+            <div class="membership-card economy" id="economyCard" onclick="toggleMembership('economy')">
+              <div class="membership-header">
+                <h6>ECONOMY MEMBERSHIP</h6>
+              </div>
+              <div class="membership-body" id="economyBody">
+                <p>
+                  We will invest your money for you at a guaranteed rate with
+                  the Mansa-X global fund. Service is free online with your
+                  personal representative, but service in the office may have
+                  extra charges.
+                </p>
+              </div>
+            </div>
+
+            <!-- Details Link -->
+            <a href="#" class="details-link" onclick="openModal(); return false;">
+              A closer look at the membership details is available here
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- FOOTER -->
     <!-- WHATSAPP FAB -->
     <!-- MODAL -->

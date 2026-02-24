@@ -8,8 +8,9 @@
   --gold: #c8a84b;
   --gold-heading: #a08e39;
   --gold-light: #f0d080;
+  --foundation-bg: #cea229;
   --economy-header: #768aa3;
-  --closer-look-bg: #d29d2b;
+  --closer-look-bg: #ce9d2e;
   --footer-bg: #cea12c;
   --profile-border: #715f43;
   --green: #27ae60;
@@ -234,4 +235,98 @@ body {
 }
 .cta-text {
   color: var(--gold-heading);
+}
+
+/* ===========================
+   MEMBERSHIP CARDS
+   =========================== */
+
+.memberships-section {
+  padding: 16px 0 30px;
+}
+
+.membership-card {
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  margin-bottom: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.membership-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.membership-card.active {
+  border-color: var(--gold);
+}
+
+.membership-header {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.membership-header h6 {
+  font-family: "Space Mono", monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+.membership-card.foundation .membership-header {
+  background: var(--foundation-bg);
+}
+
+.membership-card.foundation .membership-header h6 {
+  color: #ffffff;
+}
+
+.membership-card.economy .membership-header {
+  background: var(--economy-header);
+}
+
+.membership-card.economy .membership-header h6 {
+  color: #ffffff;
+}
+
+.membership-body {
+  background: var(--card-bg);
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  transition: max-height 0.4s ease, padding 0.3s;
+}
+
+.membership-body.open {
+  max-height: 200px;
+  padding: 16px 20px;
+}
+
+.membership-body p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.details-link {
+  display: block;
+  text-align: center;
+  background: var(--closer-look-bg);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 0.75rem;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.details-link:hover {
+  background: #b8880f;
+  color: #ffffff;
 }
