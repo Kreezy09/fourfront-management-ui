@@ -3,24 +3,36 @@
    =========================== */
 
 :root {
-  --gold: #C8A84B;
-  --gold-light: #F0D080;
-  --dark: #1A1A2E;
-  --darker: #0F0F1A;
-  --card-bg: #16213E;
-  --green: #27AE60;
-  --pink: #F8C8CE;
-  --text-light: #E8E8F0;
-  --text-muted: #8888AA;
+  --page-bg: #f3f6fd;
+  --card-bg: #444444;
+  --gold: #c8a84b;
+  --gold-heading: #a08e39;
+  --gold-light: #f0d080;
+  --economy-header: #768aa3;
+  --closer-look-bg: #d29d2b;
+  --footer-bg: #cea12c;
+  --profile-border: #715f43;
+  --green: #27ae60;
+  --benard-bg: #f6d2d4;
+  --kigsmall-bg: #d9e9ab;
+  --caroline117-bg: #efd9b0;
+  --caroline321-bg: #f6d2d4;
+  --text-light: #ffffff;
+  --text-dark: #333333;
+  --text-muted: #cccccc;
   --radius: 16px;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font-family: 'Sora', sans-serif;
-  background: var(--darker);
-  color: var(--text-light);
+  font-family: "Sora", sans-serif;
+  background: var(--page-bg);
+  color: var(--text-dark);
   min-height: 100vh;
 }
 
@@ -29,11 +41,23 @@ body {
    =========================== */
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(12px); }
-  to   { opacity: 1; transform: none; }
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 @keyframes slideUp {
-  from { opacity: 0; transform: translateY(30px); }
-  to   { opacity: 1; transform: none; }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
