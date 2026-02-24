@@ -123,13 +123,9 @@ body {
 }
 
 /* Badge */
-.joined-badge {
-  background: rgba(200, 168, 75, 0.15);
-  border: 1px solid rgba(200, 168, 75, 0.35);
-  border-radius: 8px;
-  padding: 8px 14px;
+.joined-badge {  
   font-size: 0.78rem;
-  color: var(--gold-light);
+  color: var(--text-light);
 }
 
 /* Stat Grid */
@@ -209,4 +205,33 @@ body {
   font-weight: 700;
   color: var(--text-dark);
   line-height: 1;
+}
+
+/* ===========================
+   CTA BANNER
+   =========================== */
+
+.cta-section {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-top: 16px;
+  animation: fadeIn 0.6s ease both;
+  animation-delay: 0.25s;
+}
+
+.cta-section h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gold-heading);
+}
+
+.cta-section p {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  margin-top: 6px;
+  line-height: 1.6;
+}
+.cta-text {
+  color: var(--gold-heading);
 }
