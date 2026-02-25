@@ -32,5 +32,5 @@ A mobile-first, responsive investment club web application for the **Fourfront M
 
 <!-- TODO: add GitHub Pages URL after deployment -->
 
-_Coming soon_
+https://kreezy09.github.io/fourfront-management-ui/
 
