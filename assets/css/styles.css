@@ -21,7 +21,7 @@
   --text-light: #ffffff;
   --text-dark: #333333;
   --text-muted: #cccccc;
-  --radius: 16px;
+  --radius: 10px;
 }
 
 * {
@@ -35,6 +35,8 @@ body {
   background: var(--page-bg);
   color: var(--text-dark);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ===========================
@@ -333,7 +335,7 @@ body {
 
 .membership-body p {
   font-size: 0.82rem;
-  color: var(--text-muted);
+  color: var(--text-light);
   line-height: 1.6;
 }
 
@@ -440,7 +442,7 @@ footer {
   text-align: center;
   font-size: 0.65rem;
   color: var(--text-light);
-  margin-top: 10px;
+  margin-top: auto;
 }
 
 /* ===========================
@@ -475,4 +477,101 @@ footer {
 .fab-whatsapp:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+/* Small phones */
+@media (max-width: 400px) {
+  .hero-section {
+    padding: 16px 0 8px;
+  }
+
+  .profile-card {
+    padding: 16px 12px 14px;
+  }
+
+  .profile-info-block {
+    padding: 14px 12px;
+  }
+
+  .avatar-wrap {
+    width: 48px;
+    height: 48px;
+  }
+
+  .name-text {
+    font-size: 0.9rem;
+  }
+
+  .joined-badge {
+    font-size: 0.85rem;
+    margin-top: 20px;
+  }
+
+  .stat-grid {
+    gap: 10px;
+  }
+
+  .stat-number {
+    font-size: 1.4rem;
+  }
+
+  .cta-section {
+    padding: 16px 14px;
+  }
+
+  .membership-header {
+    padding: 14px 16px;
+  }
+
+  .membership-header h6 {
+    font-size: 0.75rem;
+  }
+
+  .membership-body.open {
+    padding: 14px 16px;
+  }
+
+  .modal-box {
+    padding: 20px;
+    width: 95%;
+  }
+
+  .fab-whatsapp {
+    width: 44px;
+    height: 44px;
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .fab-whatsapp svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* Tablets and up */
+@media (min-width: 768px) {
+  .hero-section {
+    padding: 40px 0 16px;
+  }
+
+  .profile-card {
+    padding: 30px 28px 24px;
+  }
+
+  .stat-number {
+    font-size: 1.9rem;
+  }
+
+  .cta-section {
+    padding: 24px;
+  }
+
+  .membership-body.open {
+    max-height: 250px;
+  }
 }
