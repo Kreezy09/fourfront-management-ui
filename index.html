@@ -27,7 +27,7 @@
             <div class="profile-card">
               <!-- Bordered profile info block -->
               <div class="profile-info-block">
-                <div class="d-flex align-items-center gap-3">
+                <div class="d-flex align-items-start gap-3">
                   <div class="avatar-wrap">
                     <div class="avatar-placeholder">M</div>
                   </div>
@@ -44,32 +44,40 @@
               <!-- Stat Grid -->
               <div class="stat-grid">
                 <div class="stat-card benard">
-                  <div class="stat-user">
+                  <div class="stat-layout">
                     <div class="stat-avatar">B</div>
-                    <div class="stat-name">Benard Makodingo</div>
+                    <div class="stat-content">
+                      <div class="stat-name">Benard Makodingo</div>
+                      <div class="stat-number">350</div>
+                    </div>
                   </div>
-                  <div class="stat-number">350</div>
                 </div>
                 <div class="stat-card kigsmall">
-                  <div class="stat-user">
+                  <div class="stat-layout">
                     <div class="stat-avatar">K</div>
-                    <div class="stat-name">kigSmall Foot</div>
+                    <div class="stat-content">
+                      <div class="stat-name">kigSmall Foot</div>
+                      <div class="stat-number">225</div>
+                    </div>
                   </div>
-                  <div class="stat-number">225</div>
                 </div>
                 <div class="stat-card caroline117">
-                  <div class="stat-user">
+                  <div class="stat-layout">
                     <div class="stat-avatar">C</div>
-                    <div class="stat-name">Caroline Likhoi</div>
+                    <div class="stat-content">
+                      <div class="stat-name">Caroline Likhoi</div>
+                      <div class="stat-number">117</div>
+                    </div>
                   </div>
-                  <div class="stat-number">117</div>
                 </div>
                 <div class="stat-card caroline321">
-                  <div class="stat-user">
+                  <div class="stat-layout">
                     <div class="stat-avatar">C</div>
-                    <div class="stat-name">Caroline Likhoi</div>
+                    <div class="stat-content">
+                      <div class="stat-name">Caroline Likhoi</div>
+                      <div class="stat-number">321</div>
+                    </div>
                   </div>
-                  <div class="stat-number">321</div>
                 </div>
               </div>
             </div>
@@ -105,14 +113,14 @@
           <div class="col-12 col-md-8 col-lg-6">
             <!-- Foundation -->
             <div
-              class="membership-card foundation"
+              class="membership-card foundation active"
               id="foundationCard"
               onclick="toggleMembership('foundation')"
             >
               <div class="membership-header">
                 <h6><b>FOUNDATION</b> MEMBERSHIP</h6>
               </div>
-              <div class="membership-body" id="foundationBody">
+              <div class="membership-body open" id="foundationBody">
                 <p>
                   We invest for you, in shares and in the Mansa-X global fund.
                   Service is free online with your personal representative, but
@@ -123,14 +131,14 @@
 
             <!-- Economy -->
             <div
-              class="membership-card economy"
+              class="membership-card economy active"
               id="economyCard"
               onclick="toggleMembership('economy')"
             >
               <div class="membership-header">
                 <h6><b>ECONOMY</b> MEMBERSHIP</h6>
               </div>
-              <div class="membership-body" id="economyBody">
+              <div class="membership-body open" id="economyBody">
                 <p>
                   We will invest your money for you at a guaranteed rate with
                   the Mansa-X global fund. Service is free online with your

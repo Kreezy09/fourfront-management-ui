@@ -1,17 +1,16 @@
 # FourFront Management UI
 
-A mobile-first, responsive investment club web application for the **Forefront Management** platform. Built with clean, semantic HTML and custom CSS — Bootstrap is used only for grid layout utilities.
+A mobile-first, responsive investment club web application for the **Fourfront Management** assessment. Built with clean, semantic HTML and custom CSS, Bootstrap is used only for grid layout utilities.
 
 ## Tech Stack
 
 - **HTML5** — semantic markup
 - **CSS3** — custom properties, animations, responsive design
-- **Vanilla JavaScript** — no frameworks or jQuery
-- **Bootstrap 5.3** — grid system and layout utilities only
+- **Vanilla JavaScript**
+- **Bootstrap 5.3** — grid system and layout utilities
 
 ## Features
 
-- Sticky navbar with mobile hamburger toggle
 - Profile card with avatar, welcome badge, and 2×2 stat grid
 - Gold gradient CTA banner
 - Accordion-style membership cards (Foundation & Economy)
@@ -35,6 +34,3 @@ A mobile-first, responsive investment club web application for the **Forefront M
 
 _Coming soon_
 
-## License
-
-© 2026 Forefront Management. All Rights Reserved.
