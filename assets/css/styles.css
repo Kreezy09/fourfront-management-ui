@@ -31,7 +31,7 @@
 }
 
 body {
-  font-family: "Sora", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: var(--page-bg);
   color: var(--text-dark);
   min-height: 100vh;
@@ -223,7 +223,8 @@ body {
 }
 
 .stat-number {
-  font-family: "Space Mono", monospace;
+  font-family: "Fira Code", monospace;
+  font-variant-numeric: slashed-zero;
   font-size: 1.7rem;
   font-weight: 700;
   color: var(--text-dark);
@@ -295,7 +296,7 @@ body {
 }
 
 .membership-header h6 {
-  font-family: "Space Mono", monospace;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.85rem;
 
   letter-spacing: 0.06em;
@@ -423,7 +424,7 @@ body {
   border-radius: 8px;
   padding: 8px 20px;
   cursor: pointer;
-  font-family: "Sora", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 10px;
   transition: background 0.2s;
 }
